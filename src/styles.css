@@ -98,7 +98,10 @@ footer {
     padding: 15px 0;
     background: rgba(255, 255, 255, 0.2);
     backdrop-filter: blur(10px);
-    color: white;
+    color: black;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
 }
 
 footer p {
