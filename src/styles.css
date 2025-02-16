@@ -1,0 +1,107 @@
+/* Import Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
+
+/* Global Styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    height: 100vh;
+    background: url('assets/table.jpg') no-repeat center center/cover;
+    color: white;
+    text-align: center;
+}
+
+/* Frosted Glass Effect */
+.glass {
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+}
+
+/* Navigation Bar */
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 15px 0;
+    z-index: 100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+    gap: 20px;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+/* Buttons */
+nav button {
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    color: white;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: all 0.3s ease-in-out;
+}
+
+nav button:hover {
+    background: rgba(255, 255, 255, 0.3);
+    color: black;
+    transform: scale(1.1);
+}
+
+/* Main Content */
+.content {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+}
+
+/* Home Page Content */
+.container {
+    padding: 40px;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+    max-width: 600px;
+}
+
+.container h1 {
+    font-size: 2.5rem;
+    color: #ffdd57; /* Golden Color */
+}
+
+.container p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin-top: 10px;
+}
+
+/* Footer */
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 15px 0;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    color: white;
+}
+
+footer p {
+    font-size: 0.9rem;
+    opacity: 0.9;
+}

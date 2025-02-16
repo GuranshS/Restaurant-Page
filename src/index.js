@@ -1,6 +1,7 @@
 import home from './pages/home.js';
 import contact from './pages/contact.js';
 import menu from './pages/menu.js';
+import "./styles.css";
 
 console.log('Hello, world!');
 home();
