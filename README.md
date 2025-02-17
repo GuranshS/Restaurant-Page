@@ -1,1 +1,1 @@
-Odin Project: Webpack practice. Live at -> https://github.com/GuranshS/Restaurant-Page/settings/pages
+Odin Project: Webpack practice. Live at -> [Haveli](https://guranshs.github.io/Restaurant-Page/)
