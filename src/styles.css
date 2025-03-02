@@ -57,7 +57,7 @@ nav button {
 nav button:hover {
     background: rgba(255, 255, 255, 0.3);
     color: black;
-    transform: scale(1.1);
+    transform: scale(1.05);
 }
 
 /* Main Content */
@@ -74,20 +74,58 @@ nav button:hover {
 .container {
     padding: 40px;
     text-align: center;
-    background: rgba(0, 0, 0, 0.6);
-    border-radius: 10px;
+    background: rgba(0, 0, 0, 0.75);
+    border-radius: 15px;
     max-width: 600px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
 }
 
 .container h1 {
     font-size: 2.5rem;
-    color: #ffdd57; /* Golden Color */
+    color: #ffdd57;
+    margin-bottom: 15px;
 }
 
 .container p {
     font-size: 1.2rem;
     line-height: 1.6;
     margin-top: 10px;
+}
+
+.menu-section {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.menu-section h2 {
+    color: #ffdd57;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+}
+
+.menu-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 8px;
+    padding: 5px 0;
+}
+
+.dish-name {
+    font-weight: 400;
+}
+
+.dish-price {
+    color: #ffdd57;
+    font-weight: 600;
+}
+
+.contact-info {
+    margin-top: 15px;
+    text-align: center;
+    font-size: 1.1rem;
+    line-height: 1.8;
 }
 
 /* Footer */
